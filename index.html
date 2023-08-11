@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Finder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    <header class="flex">
+        <h1 class="text-white font-bold py-9 pl-28 text-xl">CAR FINDER APP</h1>
+        <div class="pl-56">
+            <ul class="text-white flex space-x-14 py-9 pl-96 font-semibold text-lg">
+                <li class="py-1">Home</li>
+                <li class="py-1">Find Cars</li>
+                <li class="py-1">Contacts Us</li>
+                <li>
+                    <div class="mb-3">
+                        <div class="relative mb-4 flex w-full flex-wrap items-stretch">
+                          <input
+                            type="search"
+                            class="relative m-0 block w-56 min-w-0 flex-auto rounded border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none dark:border-neutral-600 dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:focus:border-primary"
+                            placeholder="Search"
+                            aria-label="Search"
+                            aria-describedby="button-addon2" />
+                      
+                          <!--Search icon-->
+                          <span
+                            class="input-group-text flex items-center whitespace-nowrap rounded px-3 py-1.5 text-center text-base font-normal text-neutral-700 dark:text-neutral-200"
+                            id="basic-addon2">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                              class="h-5 w-5">
+                              <path
+                                fill-rule="evenodd"
+                                d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                                clip-rule="evenodd" />
+                            </svg>
+                          </span>
+                        </div>
+                      </div>
+                </li>
+            </ul>
+        </div> 
+    </header>
+    <!-- Body -->
+    <div class="bg-slate-200 rounded-xl w-96 h-14 place-">Enter your choices for the car</div>
+</body>
+</html>
